@@ -11,7 +11,7 @@ public class AwsCodedeployApplication {
 	
 	@GetMapping("/")
 	public String welCome() {
-		return "welCome to container world.";
+		return "welCome to codepipeline world.";
 	}
 
 	public static void main(String[] args) {
